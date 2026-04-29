@@ -1,0 +1,15 @@
+export const skills = [
+  { name: "React", icon: "/svg/skills/react.svg" },
+  { name: "TypeScript", icon: "/svg/skills/typescript.svg" },
+  { name: "Bootstrap", icon: "/svg/skills/bootstrap.svg" },
+  { name: "C Sharp", icon: "/svg/skills/csharp.svg" },
+  { name: "HTML", icon: "/svg/skills/html.svg" },
+  { name: "JavaScript", icon: "/svg/skills/javascript.svg" },
+  { name: "PHP", icon: "/svg/skills/php.svg" },
+  { name: "Python", icon: "/svg/skills/python.svg" },
+  { name: "React", icon: "/svg/skills/react.svg" },
+  { name: "Sqlite", icon: "/svg/skills/sqlite.svg" },
+  { name: "Tailwind", icon: "/svg/skills/tailwind.svg" },
+  { name: "Dotnet", icon: "/svg/skills/dotnet.svg" },
+  { name: "CSS", icon: "/svg/skills/css.svg" },
+];
