@@ -34,6 +34,11 @@ const Education = () => {
           {/* Education Cards */}
           <div className="flex flex-col gap-6">
             <EducationCard
+              year="2025 – Present "
+              title="SOFTWARE ENGINEERING PROGRAM"
+              institution="CodeYourFuture"
+            />
+            <EducationCard
               year="2023 – 2025"
               title="FURTHER EDUCATION COLLEGE (T-LEVELS)"
               institution="Barnsley College"

@@ -1,5 +1,6 @@
 // src/sections/About.tsx
 import React from "react";
+import danielImg from "../../../utils/img/daniel.jpeg";
 
 const About: React.FC = () => (
   <section id="about" className="py-24 px-4 bg-background flex justify-center">
@@ -25,7 +26,7 @@ const About: React.FC = () => (
       {/* Right: Avatar */}
       <div className="md:w-1/3 w-full flex justify-center md:justify-end">
         <img
-          src="utils/img/danielavatar.png"
+          src={danielImg}
           alt="Daniel's avatar"
           className="w-48 h-48 rounded-xl shadow-lg object-cover bg-white/10"
         />

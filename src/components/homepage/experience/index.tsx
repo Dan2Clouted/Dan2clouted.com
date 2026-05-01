@@ -38,6 +38,11 @@ const Experience = () => {
           {/* Cards */}
           <div className="flex flex-col gap-8">
             <ExperienceCard
+              title="TRAINEE SOFTWARE ENGINEER"
+              company="CodeYourFuture"
+              date="Nov 2025 – Present"
+            />
+            <ExperienceCard
               title="JUNIOR SOFTWARE ENGINEER"
               company="ZZC System Ltd"
               date="Nov 2024 – May 2025"
