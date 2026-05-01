@@ -1,6 +1,6 @@
 import danimeImg from "../img/danime.png";
-import suremailerImg from "../img/suremailer.jpg";
 import demoportfolioImg from "../img/demoportfolio.png";
+import tvshowImg from "../img/danieltvshow.png";
 
 export interface Project {
   name: string;
@@ -13,21 +13,21 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    name: "TV Show Finder",
+    description:
+      "A web app to search and explore TV shows using live API data.",
+    tech: ["JavaScript", "HTML", "CSS", "TVMaze API"],
+    image: tvshowImg,
+    github: "https://github.com/Dan2Clouted/Project-TV-Show",
+    demo: "https://tvshow.dan2clouted.com",
+  },
+  {
     name: "Danime",
     description: "An anime tracker web app with live API search.",
     tech: ["C#", "ASP.NET", "Jikan API", "SQLite"],
     image: danimeImg,
     github: "https://github.com/dan2clouted/danime",
     demo: "https://danime.dan2clouted.com",
-  },
-  {
-    name: "Sure Mailer",
-    description:
-      "A bulk email campaign builder for managing contacts, designing custom emails, and scheduling group sends. Features campaign editing, preview, and automated delivery.",
-    tech: ["PHP", "MySQL", "Mailtrap API", "JavaScript", "HTML/CSS"],
-    image: suremailerImg,
-    github: "",
-    demo: "",
   },
   {
     name: "My Portfolio",
